@@ -1,0 +1,125 @@
+.category {
+    background: #E5E5E5;
+}
+
+.category-inner {
+    padding: 0px 100px 0px;
+    padding-top: 37px;
+}
+
+.category-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 14px;
+    color: #0A142F;
+}
+
+.category-main {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-item {
+    outline: none;
+    border: 0px;
+
+    height: 60px;
+    width: 210px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.electronica {
+    background: url(./category-img/desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.transport {
+    background: url(./category-img/transport.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.property {
+    background: url(./category-img/property.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.things {
+    background: url(./category-img/things.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.for-home {
+    background: url(./category-img/for-home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.category-sort {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.category-filter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #0051BA;
+    border: none;
+    outline: none;
+    background-color: #E5e5e5;
+}
+

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.app-container {
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    background-color: #e5e5e5;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
